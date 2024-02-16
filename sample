@@ -1,0 +1,57 @@
+//create a variable named "price" and set it a specific price value
+//create a product name , create tax value, print the product name & total 
+var price = 30
+var product = "Mango"
+var tax = 10
+var total = price + tax 
+console.log(product)
+console.log(total)
+node /tmp/SqDO12m9HG.js
+Mango
+40
+
+//Multiplication
+var Fruitname = "Apple"
+var count = 30
+var price = 500
+var total = count * price
+console.log(Fruitname)
+console.log(total)
+node /tmp/SqDO12m9HG.js
+Apple
+15000
+
+//pre increment 
+let a = 10
+let b = ++a
+console.log(b)
+node /tmp/SqDO12m9HG.js
+11
+
+//post increment 
+let a = 10
+let b = a++
+console.log(b)
+node /tmp/SqDO12m9HG.js
+10
+let a = 10
+let b = a++
+console.log(b)
+console.log(a)
+node /tmp/SqDO12m9HG.js
+10
+11
+
+//data type
+console.log(typeof(10))
+node /tmp/SqDO12m9HG.js
+number
+
+console.log(typeof("Apple"))
+node /tmp/SqDO12m9HG.js
+string
+
+var a
+console.log(a)
+node /tmp/SqDO12m9HG.js
+undefined
