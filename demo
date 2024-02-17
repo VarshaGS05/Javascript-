@@ -1,0 +1,155 @@
+// Type converstion:
+let a=25;
+a=String(a);
+console.log(a,typeof a);
+node /tmp/aVGTko7bhK.js
+25 string
+let a=25;
+a=a.toString();
+console.log(a,typeof a);
+node /tmp/aVGTko7bhK.js
+25 string
+
+// Type converstion:String to number
+var b ="222"
+console.log(b,typeof b);
+
+var a = "222";
+a=Number(a);
+console.log(a,typeof a)
+node /tmp/aVGTko7bhK.js
+222 string
+222 number
+
+// Type converstion:String to number
+var a = false;
+a=Number(a);
+console.log(a,typeof a)
+var a = true;
+a=Number(a);
+console.log(a,typeof a)
+node /tmp/aVGTko7bhK.js
+0 number
+1 number
+
+//array & names are not convert into number
+var a = [1,2,3,4,5];
+a=Number(a);
+console.log(a,typeof a)
+node /tmp/aVGTko7bhK.js
+NaN number
+
+var a = "joe";
+a=Number(a);
+console.log(a,typeof a)
+node /tmp/aVGTko7bhK.js
+NaN number
+
+//coercio = concodination
+let a = "10";
+let b = 20;
+console.log(a+b);
+node /tmp/aVGTko7bhK.js
+1020
+
+//Arithmetic operators
+let a = 10;
+let b = 20;
+let c;
+c=a+b;
+console.log(c);
+node /tmp/aVGTko7bhK.js
+30
+
+//Arithmetic operators
+let a = 10;
+let b = 20;
+let c;
+c=a-b;
+c=a*b;
+c=a/b;
+c=5**5
+c=++a;
+c=--b;
+console.log(c);
+
+//Assignment operators
+let a = 10;
+let b = 20;
+let c;
+c+=5;
+c-=10;
+c*=8;
+c/=9;
+c%=3;
+console.log(c);
+
+//Math function
+let c;
+c=Math.PI;
+console.log(c);
+node /tmp/aVGTko7bhK.js
+3.141592653589793
+let c;
+c=Math.E;
+console.log(c);
+
+let d;
+d=Math.round(5.8);
+console.log(d);
+
+let e;
+e=Math.floor(5.89);
+console.log(e);
+
+let f;
+f=Math.ceil(8.6);
+console.log(f);
+
+let g;
+g=Math.sqrt(90);
+console.log(g);
+
+let h;
+h=Math.abs(-60);
+console.log(h);
+
+let i;
+i=Math.pow(5,7);
+console.log(i);
+
+let j;
+j=Math.max(3,5,67,89,432,56);
+console.log(j);
+
+let k;
+k=Math.min(12,3,4556,865);
+console.log(k);
+
+//sin,cos,tan
+let l;
+l=Math.sin(45);
+console.log(l);
+
+let m;
+m=Math.log(45);
+console.log(m);
+
+node /tmp/aVGTko7bhK.js
+2.718281828459045
+6
+5
+9
+9.486832980505138
+60
+78125
+432
+3
+0.8509035245341184
+3.8066624897703196
+
+
+
+
+
+
